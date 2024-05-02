@@ -1,0 +1,269 @@
+.home-bg-container {
+  background-size: cover;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  min-height: 100vh;
+}
+.calender-month-heading {
+  width: 127px;
+  height: 39px;
+  top: 48px;
+  left: 335px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+}
+.home-heading {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #ffbe38;
+}
+.dates-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calender {
+  width: 797px;
+  height: 509px;
+  top: 277px;
+  left: 62px;
+  gap: 0px;
+  opacity: 0px;
+
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+  border: 2.05px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(19, 18, 18, 0.28) 2.05%,
+    rgba(53, 51, 51, 0) 92.82%
+  );
+  margin-right: 20px;
+}
+.emojis-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 487px;
+  height: 243px;
+  left: -1px;
+  gap: 0px;
+  border-radius: 27.29px;
+  margin-bottom: 20px;
+
+  opacity: 0px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 2.05px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  @media (max-width: 768px) {
+    width: 328px;
+    height: 116px;
+    top: 81px;
+    left: 16px;
+    padding: 30px 16px 30px 16px;
+    gap: 0px;
+    border-radius: 18.42px;
+    border: 1.38px 0px 0px 0px;
+    justify: space-between;
+    opacity: 0px;
+    background: linear-gradient(
+      145.12deg,
+      rgba(114, 104, 117, 0.21) 1.78%,
+      rgba(117, 116, 117, 0) 125.71%
+    );
+    border: 1.38px solid;
+
+    border-image-source: linear-gradient(
+      139.28deg,
+      rgba(90, 86, 86, 0.28) 2.05%,
+      rgba(0, 0, 0, 0) 92.82%
+    );
+  }
+}
+
+.dates-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 487px;
+  height: 243px;
+  left: -1px;
+  gap: 0px;
+  border-radius: 27.29px;
+  opacity: 0px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 2.05px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+}
+.inner-dates-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.select-day {
+  width: 150px;
+  height: 35px;
+  top: 48px;
+  left: 255px;
+  gap: 4px;
+  opacity: 0px;
+  border-radius: 10px;
+
+  background: #42404d;
+  border: 1px solid #4e5d72;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+  padding-right: 20px;
+}
+
+.select-emojiName {
+  width: 180px;
+  height: 35px;
+  top: 48px;
+  left: 255px;
+  gap: 4px;
+  opacity: 0px;
+  border-radius: 10px;
+  margin-right: 20px;
+  background: #42404d;
+  border: 1px solid #4e5d72;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+.iddd {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-date-heading {
+  width: 57px;
+  height: 58px;
+  top: 125px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icon-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 14px;
+  height: 7px;
+  top: 5px;
+  left: 9px;
+  gap: 0px;
+  opacity: 0px;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.icons-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.day-card {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.day-day {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: center;
+  color: #cbd5e1;
+  @media (max-width: 768px) {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    color: #cbd5e1;
+  }
+}
+
+.dropdownOption {
+  width: 120px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffbe38;
+}
+
+.icon-icon {
+  width: 14px;
+  height: 14px;
+  top: 12px;
+  left: 167px;
+  padding: 6px 4px 6px 4px;
+  gap: 0px;
+  opacity: 0px;
+}

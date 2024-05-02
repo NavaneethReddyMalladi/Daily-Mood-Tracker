@@ -1,0 +1,51 @@
+.notFound-container {
+  background-size: cover;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  min-height: 100vh;
+ 
+}
+.notFound-card{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.notFound-image {
+  width: 200;
+  height: 300px;
+  top: 386.95px;
+  left: 687.75px;
+  gap: 0px;
+  opacity: 0px;
+  background: #1e3453;
+}
+
+.notFound-heading {
+  width: 229px;
+  height: 39px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 28.67px;
+  font-weight: 500;
+  line-height: 38.23px;
+  letter-spacing: 0.11945700645446777px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.notFound-para {
+  width: 528px;
+  height: 29px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 19.11px;
+  font-weight: 400;
+  line-height: 28.67px;
+  letter-spacing: 0.11945700645446777px;
+  text-align: center;
+  color: #ffffffcc;
+}

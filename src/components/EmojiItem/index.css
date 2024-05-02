@@ -1,0 +1,49 @@
+.emoji-items {
+  list-style: none;
+}
+
+.emoji-name {
+  width: 89px;
+  height: 19px;
+  top: 68px;
+  left: 48px;
+  gap: 0px;
+  opacity: 0px;
+  angle: -0 deg;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.emoji-image {
+  width: 32px;
+  height: 32px;
+  top: 115px;
+  left: 170px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 30px;
+}
+
+.emoji-image-active {
+  width: 50px;
+  height: 50px;
+  top: 115px;
+  left: 170px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 30px;
+
+  box-shadow: 0px 2px 8px 0px #f7f7f712;
+
+  background-color: transparent;
+}
+.emoji-img-btn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
